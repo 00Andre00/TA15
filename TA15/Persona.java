@@ -21,14 +21,14 @@ public abstract class Persona {
     public int getDni() {
         return dni;
     }
-    public void setDni(int dni) {
-        this.dni = dni;
-    }
     public String getApellidos() {
         return apellidos;
     }
     public String getFechaNacimiento() {
         return fechaNacimiento;
+    }
+    public void setDni(int dni) {
+        this.dni = dni;
     }
 
     public abstract long calcularEdad();
